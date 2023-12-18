@@ -5,6 +5,8 @@ NOTE: THIS IS A D.I.Y. GPT MODEL
 
 Particularly, this ML model holds the unique ability to evolve it's architecture, it's neural network. I myself created an optimizer, similar to Adam, except one which adjusts the neural network of the model over epochs. Additionally, other than purely optimization techniques during training, I wanted to implement this custom optimizer, which I called "EVO" (short for "evolution"), in everyday usage, so that this GPT model had the ability to evolve and adapt its architecture over time, specifically to adapt to the user's interests.
 
+NOTE: PRETTY MUCH THE ONLY THINGS THAT MATTER IN THIS REPOSITORY, OUT OF ALL THE FILES, ARE THE "ai.py", "ai (1).py" and the "code_gpt_tokenizer.json" files.
+
 The project in its entirety was supposed to be a desktop application, which basically worked like Github copilot, but with more features, such as the ability to search online, think more analytically, and not merely complete code blocks and have long conversations, but also the ability to innovately brainstorm on projects developers may have been working on. And with the previously described evolving neural network, this was supposed to be a masterpiece. Unfortunate to see such a roadblock - just not enough memory (RAM).
 I purchased a google Colab pro+ subscription, hoping that that would provide me with GPUs better than my PC, and it did, but didn't work quite well. I still faced OOM (out-of-memory) errors, on the very first example of the very first batch of the training dataset. Even with an A100 GPU (which on its own has 40GB RAM), and 80GB system RAM, my program would still crash. Specifically, the errors encountered are: "failed to allocate tensor.." or "OOM when allocating tensor of shape..".
 
